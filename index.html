@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="registration-form">
+            <h2>Registration</h2>
+            <hr>
+            <form id="registrationForm" action="#">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" placeholder="Enter Full Name">
+                        <small class="error-message" id="full-name-error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter Username">
+                        <small class="error-message" id="username-error"></small>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter Email Address">
+                        <small class="error-message" id="email-error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter Phone Number">
+                        <small class="error-message" id="phone-error"></small>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password">
+                        <small class="error-message" id="password-error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" placeholder="Confirm Password">
+                        <small class="error-message" id="confirm-password-error"></small>
+                    </div>
+                </div>
+                <div class="form-group gender">
+                    <label>Gender</label>
+                    <div class="alignn">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
